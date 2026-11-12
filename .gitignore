@@ -1,0 +1,21 @@
+# SEGREDOS - nunca enviar para o GitHub
+.env
+backend/.env
+
+# Node
+node_modules/
+
+# Flutter (a pasta android/ é gerada na nuvem pelo workflow)
+app/android/
+app/ios/
+app/web/
+app/windows/
+app/linux/
+app/macos/
+app/build/
+app/.dart_tool/
+app/.idea/
+app/.metadata
+app/*.iml
+app/.flutter-plugins*
+app/pubspec.lock
