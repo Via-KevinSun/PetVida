@@ -36,7 +36,8 @@ jobs:
       - name: Compilar APK
         working-directory: app
         # >>> TROQUE pelo endereço do seu servidor no Render (termina em /api) <<<
-        run: flutter build apk --release --dart-define=API_URL=https://SEU-SERVIDOR.onrender.com/api
+        # run: flutter build apk --release --dart-define=API_URL=https://SEU-SERVIDOR.onrender.com/api
+        run: flutter build apk --release --dart-define=API_URL: https://petvida-api.onrender.com/api
 
       - uses: actions/upload-artifact@v4
         with:
